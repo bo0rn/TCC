@@ -1,5 +1,52 @@
-.nav {
-    color: #333;
-    background-color: aqua;
+/* estilização dos elementos HTML */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilização do corpo do site */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: radial-gradient(circle at center, #0F1B42, #090d25, black);
+    background-attachment: fixed;
+}
+
+/* estilização do título */
+h1 {
+    color: rgb(201, 197, 197);
     text-align: center;
+    margin-top: 60px;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* estilização do parágrafo */
+p {
+   color: rgb(201, 197, 197);
+   text-align: center;
+   margin-top: 50px;
+}
+
+/* estilização da barra de navegação da pagina inicial */
+.menu-inicial {
+    background-image: radial-gradient(circle at bottom, #0F1B42, #090d25, black);
+    padding: 15px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+a {
+    color: rgb(201, 197, 197);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    
+}
+
+li {
+    list-style: none;
+    text-align: left;
+    display: inline-block;
 }
